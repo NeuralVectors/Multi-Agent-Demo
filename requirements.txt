@@ -1,0 +1,30 @@
+# Multi-Agent Demo Dependencies
+# ==============================
+
+# LangChain - Core framework for building LLM applications
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-text-splitters>=0.2.0
+
+# LangGraph - Multi-agent orchestration
+langgraph>=0.1.0
+
+# Vector Store for RAG
+chromadb>=0.4.0
+
+# OpenAI API
+openai>=1.0.0
+
+# Rich - Beautiful terminal output (key for visual demo!)
+rich>=13.0.0
+
+# Web search (free, no API key needed)
+duckduckgo-search>=5.0.0
+ddgs>=6.0.0
+
+# Additional dependencies
+tiktoken>=0.5.0  # For token counting with OpenAI
+python-dotenv>=1.0.0  # For loading environment variables
+certifi>=2023.0.0  # SSL certificates (fixes macOS SSL issues)
